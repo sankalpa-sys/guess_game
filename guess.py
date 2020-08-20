@@ -1,6 +1,6 @@
 import random
 def guessing_game():
-    number = random.randint(0, 10)
+    number = random.randint(1, 100)
     guess = 1
     while True:
         guessed_number = input("Guess a number : ")
